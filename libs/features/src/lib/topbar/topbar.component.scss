@@ -1,0 +1,13 @@
+:host {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid hsl(0, 0%, 33%, 1);
+}
+
+.cp-topbar {
+  &-logo {
+    width: 50px; /*mob 30px*/
+    cursor: pointer;
+    margin-bottom: 10px; /*mob 10px*/
+  }
+}
