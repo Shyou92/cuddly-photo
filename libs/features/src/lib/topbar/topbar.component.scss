@@ -6,8 +6,12 @@
 
 .cp-topbar {
   &-logo {
-    width: 50px; /*mob 30px*/
+    width: 50px;
     cursor: pointer;
-    margin-bottom: 10px; /*mob 10px*/
+    margin-bottom: 10px;
+
+    @media screen and (max-width: 767px) {
+      width: 30px; 
+    }
   }
 }
