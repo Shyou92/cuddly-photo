@@ -1,0 +1,64 @@
+:host {
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 335px;
+  align-items: center;
+
+  @media screen and (max-width: 767px) {
+    justify-content: center;
+    align-items: baseline;
+  } 
+  
+
+  .cp-user {
+    &-name {
+      line-height: 48px;
+      font-weight: 500;
+      font-size: 42px;
+      margin: 0;
+      gap: 25px;
+
+      @media screen and (max-width: 767px) {
+        line-height: 32px;
+        font-size: 27px;
+        margin-bottom: 14px;
+      }      
+    }
+
+    &-edit {
+      width: 24px;
+      height: 24px;
+      background-repeat: no-repeat;
+      border: 1px solid white;
+      background-color: black;
+      background-image: url('../../../../../../../apps/cuddly-photo/src/assets/edit.svg');
+      background-position: center;
+      cursor: pointer;
+      transition: .7s;
+      margin-inline-start: 20px;
+      align-self: center;
+      margin-top: 5px;
+      
+      &:hover {
+        opacity: .5;
+      }
+
+      @media screen and (max-width: 767px) {
+        width: 18px;
+        height: 18px;
+        margin-top: 0;
+        align-self: baseline;
+      }
+    }
+
+    &-occupation {
+      margin: 0;
+
+      @media screen and (max-width: 767px) {
+        line-height: 17px;
+        font-size: 14px;
+      }   
+    }
+  }
+}

@@ -1,10 +1,10 @@
 import { Route } from '@angular/router';
-import { TopbarComponent } from '@cp/features';
+import { TemplatesModule } from '@cp/templates';
 
 export const appRoutes: Route[] = [
   {
     path: '',
-    component: TopbarComponent,
+    component: TemplatesModule,
     pathMatch: 'full'
   }
 ];
