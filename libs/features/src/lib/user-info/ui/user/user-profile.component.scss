@@ -4,10 +4,12 @@
   flex-flow: row wrap;
   max-width: 335px;
   align-items: center;
+  padding-top: 30px;
 
   @media screen and (max-width: 767px) {
     justify-content: center;
     align-items: baseline;
+    padding-top: 0;
   } 
   
 
